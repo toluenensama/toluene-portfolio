@@ -32,7 +32,7 @@ function ThemeToggle() {
       <button
         onClick={toggleTheme}
         className={cn(
-          "fixed max-sm:hidden z-50 p-2 rounded-full",
+          "fixed max-sm:top-5 max-sm:right-18 z-50 p-2 rounded-full",
           " transition-colors",
           " duration-300",
           "focus:outline-hidden",
