@@ -1,9 +1,4 @@
-import {
-  Code,
-  Database,
-  LucideSettings,
-
-} from "lucide-react";
+import { Code, Database, LucideSettings } from "lucide-react";
 
 export function AboutSection() {
   return (
@@ -18,18 +13,21 @@ export function AboutSection() {
               Passionate Programmer and Web Developer
             </h3>
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit aliquid asperiores natus tenetur aut, autem
-              similique iure quod fugiat veritatis quibusdam aspernatur. Eius
-              exercitationem culpa nihil vel voluptas quae explicabo adipisci
-              quidem voluptatum deleniti reiciendis ducimus ut vitae, delectus
-              fuga.
+              Hi, I'm Tolu Ojo — a web developer and programmer with a passion
+              for building clean, responsive, and user-friendly websites. I
+              specialize in both front-end and back-end development using
+              technologies like HTML, CSS, JavaScript, React, Tailwind CSS,
+              Flask, Python, Express.js, and SQL.
             </p>
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              culpa nostrum ipsa soluta quidem aspernatur quod ducimus nihil,
-              illo odio saepe porro quas ipsum consequatur in assumenda. Odio,
-              molestiae commodi!
+              With a strong foundation in web development and a background in
+              physics, I bring a logical and analytical approach to
+              problem-solving, paired with a creative eye for design. I'm
+              currently exploring job opportunities and open to freelance
+              projects where I can contribute to meaningful and impactful web
+              experiences. Outside of code, I’m a huge anime fan, a physicist at
+              heart, and a lover of good music — always on the hunt for the next
+              great playlist.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="#contact" className="cosmic-button">

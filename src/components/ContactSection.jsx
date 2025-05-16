@@ -9,21 +9,42 @@ import {
   Send,
 } from "lucide-react";
 import { cn } from "../lib/utils";
+
 import { useToast } from "../hooks/use-toast";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 export function ContactSection() {
   const { toast } = useToast();
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  
+  const form = useRef();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitting(true)
+
+    setIsSubmitting(true);
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
     setTimeout(() => {
       toast({
         title: "Message Sent!",
         description: "Thank you for your message, I'll get back to you soon.",
       });
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }, 1500);
   };
 
@@ -70,10 +91,10 @@ export function ContactSection() {
               <div className="flex flex-col mx-auto text-sm gap-2 items-center justify-center">
                 <p>Connect with me</p>
                 <div className="flex gap-1 items-center justify-center">
-                  <a href="#">
+                  <a href="https://x.com/magetoluene">
                     <LucideTwitter className="h-6 w-6 text-muted-foreground" />
                   </a>
-                  <a href="#">
+                  <a href="https://web.facebook.com/toluene.kirito/">
                     <LucideFacebook className="h-6 w-6 text-muted-foreground" />
                   </a>
                   <a href="#">
@@ -86,7 +107,11 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <form className="bg-card shadow-xs card-hover rounded-lg p-8 " onSubmit={handleSubmit}>
+          <form
+            ref={form}
+            className="bg-card shadow-xs card-hover rounded-lg p-8 "
+            onSubmit={handleSubmit}
+          >
             <h3 className="text-xl md:text-2xl font-semibold mb-6">
               Send a Message
             </h3>
@@ -101,6 +126,7 @@ export function ContactSection() {
                   placeholder="Your name...."
                   required
                   id="name"
+                  name="name"
                 />
               </div>
               <div className="flex flex-col gap-2">
@@ -116,6 +142,7 @@ export function ContactSection() {
                   placeholder="Email Address"
                   required
                   id="email"
+                  name="email"
                 />
               </div>
               <div className="flex flex-col gap-2">
@@ -128,16 +155,18 @@ export function ContactSection() {
                   placeholder="Hi Tolu, I would like to....."
                   required
                   id="message"
+                  name="message"
                 />
               </div>
               <button
                 type="submit"
-                disabled = {isSubmitting}
+                disabled={isSubmitting}
                 className={cn(
                   "cosmic-button flex items-center mx-auto w-full gap-2 justify-center"
                 )}
               >
-                {isSubmitting ? "Sending..." :" Send Message"} <Send size={16} />
+                {isSubmitting ? "Sending..." : " Send Message"}{" "}
+                <Send size={16} />
               </button>
             </div>
           </form>
