@@ -97,10 +97,10 @@ export function ContactSection() {
                   <a href="https://web.facebook.com/toluene.kirito/">
                     <LucideFacebook className="h-6 w-6 text-muted-foreground" />
                   </a>
-                  <a href="#">
+                  <a href="https://wa.me/2347016682022">
                     <LucideMessageCircle className="h-6 w-6 text-muted-foreground" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/tolu-daniel-ojo-8508a7231/">
                     <Linkedin className="h-6 w-6 text-muted-foreground" />
                   </a>
                 </div>
