@@ -34,7 +34,7 @@ export function AboutSection() {
                 Get In Touch
               </a>
               <a
-                      href="#"
+                      href="/OJO_TOLUWALOGO_CV.pdf"
                       download="Ojo_Toluwalogo_Resume.pdf" 
                 className="py-2 px-6 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
