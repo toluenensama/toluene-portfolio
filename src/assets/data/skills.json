@@ -1,0 +1,30 @@
+[
+  { "name": "HTML/CSS", "level": 80, "category": "frontend" },
+  { "name": "JavaScript", "level": 70, "category": "language" },
+  { "name": "Python", "level": 80, "category": "language" },
+  { "name": "Tailwind CSS", "level": 80, "category": "frontend" },
+  { "name": "Bootstrap", "level": 50, "category": "frontend" },
+  { "name": "jQuery", "level": 50, "category": "frontend" },
+  { "name": "React", "level": 60, "category": "frontend" },
+  { "name": "Node.js", "level": 80, "category": "backend" },
+  { "name": "Express", "level": 80, "category": "backend" },
+  { "name": "RESTAPI", "level": 80, "category": "backend" },
+  { "name": "PostgresSQL", "level": 80, "category": "database management" },
+  { "name": "SQLlite", "level": 80, "category": "database management" },
+  { "name": "Flask", "level": 80, "category": "backend" },
+  { "name": "Git/GitHub", "level": 80, "category": "tools" },
+  { "name": "VS Code", "level": 80, "category": "tools" },
+  { "name": "Figma", "level": 40, "category": "tools" },
+  {
+    "name": "passport.js",
+    "level": 50,
+    "category": "authentication & security"
+  },
+  { "name": "bcrypt", "level": 90, "category": "authentication & security" },
+  { "name": "MS Word", "level": 90, "category": "text editing" },
+  { "name": "Google Docs", "level": 85, "category": "text editing" },
+  { "name": "Markdown", "level": 70, "category": "text editing" },
+  { "name": "EJS", "level": 70, "category": "templating" },
+  { "name": "Jinja", "level": 70, "category": "templating" },
+  { "name": "Vanilla JS", "level": 80, "category": "frontend" }
+]

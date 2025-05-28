@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Tic tac toe",
+    "description": "A tic tac toe game web app built with tailwindcss and react",
+    "image": "/projects/tic-tac-toe.png",
+    "tags": ["TailwindCSS", "React", "JavaScript"],
+    "demoUrl": "https://tic-tac-toe-toluene.netlify.app/",
+    "GitHub": "https://github.com/toluenensama/tic-tac-toe-react"
+  },
+
+  {
+    "id": 2,
+    "title": "SkyLogs",
+    "description": "A weather app that shows weather forecast and current weather conditions for user's location or any city provided",
+    "image": "/projects/skylogs.png",
+    "tags": ["HTML/CSS", "API", "Flask", "Python", "Jinja"],
+    "demoUrl": "#",
+    "GitHub": "https://github.com/toluenensama/skylogs"
+  },
+  {
+    "id": 3,
+    "title": "Taskflow",
+    "description": "A to-do list app that allow multiple users to add, read,edit and delete daily tasks",
+    "image": "/projects/taskflow.png",
+    "tags": ["HTML/CSS", "SQL", "Flask", "Bootstrap", "Python", "Jinja"],
+    "demoUrl": "#",
+    "GitHub": "https://github.com/toluenensama/Taskflow/tree/master"
+  },
+  {
+    "id": "4",
+    "title": "Product List with Cart",
+    "description": "A responsive shopping page for desserts featuring a functional cart system.",
+    "image": "/projects/desserts.png",
+    "tags": ["React", "Tailwind CSS"],
+    "demoUrl": "https://product-list-and-cart-toluene.netlify.app",
+    "Github": "https://github.com/toluenensama/product-list-with-cart-main"
+  },
+  {
+    "id": "5",
+    "title": "Tip Calculator",
+    "description": "A tip calculator that computes tips and splits bills among multiple people.",
+    "image": "/projects/tip-calculator.png",
+    "tags": ["React", "Tailwind CSS"],
+    "demoUrl": "https://tip-calculator-toluene.netlify.app",
+    "Github": "https://github.com/toluenensama/tip-calculator-app-main"
+  },
+  {
+    "id": "6",
+    "title": "Job Listing with Filtering",
+    "description": "A job listing page that supports filtering by role, level, tools, and languages.",
+    "image": "/projects/job-listing.png",
+    "tags": ["React", "Tailwind CSS"],
+    "demoUrl": "https://job-listing-frontend-mentor.netlify.app",
+    "Github": "https://github.com/toluenensama/job-Listing"
+  },
+  {
+    "id": "7",
+    "title": "Job Listing with Filtering",
+    "description": "A landing page for a creatives website.",
+    "image": "/projects/sunnyside.png",
+    "tags": ["React", "Tailwind CSS"],
+    "demoUrl": "https://sunny-side-frontend-mentor-eight.vercel.app/",
+    "Github": "https://github.com/toluenensama/sunny-side-frontend-mentor"
+  }
+
+]

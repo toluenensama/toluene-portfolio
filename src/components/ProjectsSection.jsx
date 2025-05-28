@@ -1,36 +1,6 @@
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
-const projects = [
-  {
-    id: 1,
-    title: "Tic tac toe",
-    description: "A tic tac toe game web app built with tailwindcss and react",
-    image: "/projects/tic-tac-toe.png",
-    tags: ["TailwindCSS", "React", "JavaScript"],
-    demoUrl: "https://tic-tac-toe-toluene.netlify.app/",
-    GitHub: "https://github.com/toluenensama/tic-tac-toe-react",
-  },
-
-  {
-    id: 2,
-    title: "SkyLogs",
-    description:
-      "A weather app that shows weather forecast and current weather conditions for user's location or any city provided",
-    image: "/projects/skylogs.png",
-    tags: ["HTML/CSS", "API", "Flask", "Python", "Jinja"],
-    demoUrl: "#",
-    GitHub: "https://github.com/toluenensama/skylogs",
-  },
-  {
-    id: 3,
-    title: "Taskflow",
-    description:
-      "A to-do list app that allow multiple users to add, read,edit and delete daily tasks",
-    image: "/projects/taskflow.png",
-    tags: ["HTML/CSS", "SQL", "Flask", "Bootstrap", "Python", "Jinja"],
-    demoUrl: "#",
-    GitHub: "https://github.com/toluenensama/Taskflow/tree/master",
-  },
-];
+import projectsData from "../assets/data/projects.json"
+const projects = projectsData;
 
 export function ProjectsSection() {
   return (
