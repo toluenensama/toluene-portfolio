@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { cn } from "../lib/utils";
-import skills from "../assets/data/skills.json"
+import skillsData from "../assets/data/skills.json"
 
-const skills = skills
+const skills = skillsData
 
 const categories = [
   "all",
