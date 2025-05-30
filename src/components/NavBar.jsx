@@ -28,9 +28,9 @@ export function NavBar() {
     <>
       <nav
         className={cn(
-          "fixed w-full z-40 transition-all duration-300",
+          "fixed w-full z-40 bg-card/80 backdrop-blur-md transition-all duration-300",
           isScrolled
-            ? "py-3 bg-background/80 backdrop-blur-md shadow-xs"
+            ? "py-3 bg-card backdrop-blur-md shadow-xs"
             : "py-5"
         )}
       >
