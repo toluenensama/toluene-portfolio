@@ -62,6 +62,15 @@
     "tags": ["React", "Tailwind CSS"],
     "demoUrl": "https://sunny-side-frontend-mentor-eight.vercel.app/",
     "Github": "https://github.com/toluenensama/sunny-side-frontend-mentor"
+  },
+  {
+    "id": "8",
+    "title": "Fylo Landing page",
+    "description": "A landing page for a file storage SaaS.",
+    "image": "/projects/fylo-landing.png",
+    "tags": ["React", "Tailwind CSS","Framer-Motion"],
+    "demoUrl": "https://fylo-toluene.netlify.app/",
+    "Github": "https://github.com/toluenensama/fylo-web-landing-page"
   }
 
 ]

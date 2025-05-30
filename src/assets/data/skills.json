@@ -5,7 +5,7 @@
   { "name": "Tailwind CSS", "level": 80, "category": "frontend" },
   { "name": "Bootstrap", "level": 50, "category": "frontend" },
   { "name": "jQuery", "level": 50, "category": "frontend" },
-  { "name": "React", "level": 60, "category": "frontend" },
+  { "name": "React", "level": 80, "category": "frontend" },
   { "name": "Node.js", "level": 80, "category": "backend" },
   { "name": "Express", "level": 80, "category": "backend" },
   { "name": "RESTAPI", "level": 80, "category": "backend" },
