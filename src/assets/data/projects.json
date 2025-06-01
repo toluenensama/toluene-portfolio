@@ -56,7 +56,7 @@
   },
   {
     "id": "7",
-    "title": "Job Listing with Filtering",
+    "title": Sunnyside Landing Page",
     "description": "A landing page for a creatives website.",
     "image": "/projects/sunnyside.png",
     "tags": ["React", "Tailwind CSS"],
