@@ -100,7 +100,7 @@ export function ContactSection() {
                   <a href="https://wa.me/2347016682022">
                     <LucideMessageCircle className="h-6 w-6 text-muted-foreground" />
                   </a>
-                  <a href="https://www.linkedin.com/in/tolu-daniel-ojo-8508a7231/">
+                  <a href="https://www.linkedin.com/in/toluwalogo-ojo-8508a7231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                     <Linkedin className="h-6 w-6 text-muted-foreground" />
                   </a>
                 </div>
