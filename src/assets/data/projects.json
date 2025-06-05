@@ -71,6 +71,15 @@
     "tags": ["React", "Tailwind CSS","Framer-Motion"],
     "demoUrl": "https://fylo-toluene.netlify.app/",
     "Github": "https://github.com/toluenensama/fylo-web-landing-page"
+  },
+  {
+    "id": "9",
+    "title": "Loop Studio Landing page",
+    "description": "A landing page for a VR studio.",
+    "image": "/projects/loopstudio.png",
+    "tags": ["React", "Tailwind CSS","Framer-Motion"],
+    "demoUrl": "https://loop-studio-toluene.netlify.app/",
+    "Github": "https://github.com/toluenensama/LoopStudio"
   }
 
 ]
